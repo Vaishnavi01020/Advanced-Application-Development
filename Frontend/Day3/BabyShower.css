@@ -1,0 +1,70 @@
+.birthday-decor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 80%; /* Adjust width as needed */
+    margin: 0 auto; /* Center horizontally */
+  }
+  
+  .banner {
+    display: flex; /* Display images side-by-side */
+    width: 100%; /* Images take full width */
+    background-color: #f5f5f5; /* Light background for banner */
+    padding: 20px;
+    border-radius: 4px; /* Rounded corners for a polished look */
+  }
+  
+  .banner img {
+    flex: 1; /* Images share available space equally */
+    object-fit: cover; /* Maintain aspect ratio and crop if needed */
+    height: 200px; /* Adjust image height */
+  }
+  
+  .banner h1 {
+    text-align: center; /* Center text in banner */
+    font-size: 2em; /* Increase heading size */
+    margin: 0; /* Remove default margin */
+  }
+  
+  .forms {
+    display: flex;
+    flex-wrap: wrap; /* Allow forms to wrap to the next line */
+    justify-content: space-between; /* Space forms evenly */
+    width: 100%;
+  }
+  
+  .forms form {
+    flex: 1; /* Forms share available space equally */
+    padding: 15px;
+    border: 1px solid #ddd; /* Add a subtle border */
+    border-radius: 4px; /* Rounded corners for forms */
+    margin: 10px;
+  }
+  
+  .forms form h2 {
+    margin-bottom: 10px; /* Add spacing after heading */
+  }
+  
+  .forms form input,
+  .forms form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  .forms form button {
+    background-color: #4CAF50; /* Green button for submit */
+    color: white;
+  }
+  body {
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+  }
+  
+  .scrollable-container {
+    height: 100vh; /* Set height to 100% of viewport height */
+    
+  }
+  
