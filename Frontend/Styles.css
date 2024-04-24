@@ -1,0 +1,55 @@
+.add-ons {
+    text-align: left;
+    margin-top: 40px; /* Adjust margin-top as needed */
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px; /* Set a maximum width for the AddOns section */
+  }
+  
+  .addon-category {
+    margin-bottom: 20px;
+  }
+  
+  .addon-category h2 {
+    margin-bottom: 10px;
+  }
+  
+  .addon-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .addon-item {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .addon-item img {
+    width: 100%;
+    height: 60%; /* Adjust the height as needed */
+    object-fit: cover;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+  
+  .addon-item span {
+    display: block;
+    padding: 10px;
+  }
+  
+  /* Responsive Styles */
+  @media only screen and (max-width: 768px) {
+    .addon-item {
+      width: 100%; /* Full width on smaller screens */
+      height: auto; /* Adjust height as needed */
+    }
+  
+    .addon-item img {
+      border-radius: 8px 8px 0 0; /* Adjust border radius for smaller screens */
+    }
+  }
